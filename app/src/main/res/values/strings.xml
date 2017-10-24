@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CWSBaseApplication</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!--error message -->
+    <string name="error_dialog_label">Error!</string>
+    <string name="error_no_connectivity">No active internet connection.</string>
+    <string name="error_slow_network">Network is slow. Are you sure to continue?</string>
+    <string name="error_network_timeout">Network Timed Out.</string>
+    <string name="error_no_connection">Connection couldn\'t be established.</string>
+    <string name="error_server_failure">Server failure.</string>
+    <string name="error_auth_failure">Authentication failed.</string>
+    <string name="error_network_failure">Network failed</string>
+    <string name="error_parsing_failure">Response couldn\'t be parsed.</string>
+    <string name="error_request_failure">Request couldn\'t be completed.</string>
+</resources>
