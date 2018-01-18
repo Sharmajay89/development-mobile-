@@ -1,10 +1,14 @@
 <resources>
-    <string name="app_name">CWSBaseApplication</string>
+    <string name="app_name">TapToFind</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <!--ca-app-pub-3596355202637086/8050664850-->
+    <string name="ads_app_id">ca-app-pub-5931405166920070~5582305537</string>
+    <string name="banner_ad_unit_id">ca-app-pub-5931405166920070/8416352435</string>
+
 
     <!--error message -->
     <string name="error_dialog_label">Error!</string>

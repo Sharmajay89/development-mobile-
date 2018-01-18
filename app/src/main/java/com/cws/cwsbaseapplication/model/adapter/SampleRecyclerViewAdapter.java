@@ -8,9 +8,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import com.cws.cwsbaseapplication.R;
 import com.cws.cwsbaseapplication.model.pojo.ActionDetails;
+import com.service.taptofind.R;
 
 import java.util.ArrayList;
 

@@ -10,7 +10,7 @@ import com.android.volley.Response.ErrorListener;
 import com.android.volley.ServerError;
 import com.android.volley.TimeoutError;
 import com.android.volley.VolleyError;
-import com.cws.cwsbaseapplication.R;
+import com.service.taptofind.R;
 
 public abstract class VolleyErrorListener implements ErrorListener{
 	private Context context;

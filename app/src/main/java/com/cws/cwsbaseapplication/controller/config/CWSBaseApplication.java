@@ -11,6 +11,8 @@ import com.android.volley.VolleyLog;
 import com.android.volley.toolbox.ImageLoader;
 import com.android.volley.toolbox.Volley;
 import com.cws.cwsbaseapplication.controller.networks.volley.LruBitmapCache;
+import com.google.android.gms.ads.MobileAds;
+import com.service.taptofind.R;
 
 import java.io.File;
 
@@ -56,6 +58,10 @@ public class CWSBaseApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+
+        // Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713
+        MobileAds.initialize(this, "ca-app-pub-5931405166920070~5582305537");
+
         android_id = Settings.Secure.getString(getApplicationContext().getContentResolver(), Settings.Secure.ANDROID_ID);
         mInstance = this;
 
